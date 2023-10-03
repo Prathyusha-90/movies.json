@@ -1,0 +1,9 @@
+import { getData, saveData } from "./db.json";
+
+const uri = ""
+ export function getorders(){
+    return getData(url);
+ }
+ export function saveMovie(data) {
+    return saveData(url, data);
+ }
